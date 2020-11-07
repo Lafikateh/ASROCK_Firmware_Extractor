@@ -32,7 +32,7 @@ char* c_duplicate_string_c(const char* text)
 
 // Create an string using an existing const char* string
 // Returns string* on success, or NULL on failure
-string* create_string(char* text)
+string* create_string(const char* text)
 {
 	// Check if the text pointer is valid
 	if (text != NULL)
